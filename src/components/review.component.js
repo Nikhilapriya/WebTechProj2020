@@ -60,14 +60,14 @@ export default class RestaurantReview extends Component {
 
   render() {
     return (
-        <div style={{ backgroundImage: `url(https://www.freepptbackgrounds.net/wp-content/uploads/2020/03/Breakfast-food-Backgrounds-750x460.jpg)`,
-       backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat'
-       }}>
+      <div style={{ backgroundImage: `url(https://www.freepptbackgrounds.net/wp-content/uploads/2020/03/Breakfast-food-Backgrounds-750x460.jpg)`,
+      backgroundPosition: 'center',
+     backgroundSize: 'cover',
+     backgroundRepeat: 'no-repeat'
+      }}> 
 
       <div>
-        <h3><b>Add Comments on your Favorite Dish</b></h3>
+        <h1><b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Add Comments on your Favorite Dish</b></h1>
         <img src="https://media.newstracklive.com/uploads/lifestyle-health/food-recipe/May/20/big_thumb/hyderabad_5ce2c5ebbbb17.PNG" alt="Biryani" width="180" height="160"></img>
 <h4><b>Biryani</b> dish Id  -  121210</h4>
 <img src="https://sukhis.com/wp-content/uploads/2020/01/Dosa.jpg" alt="Biryani" width="180" height="160"></img>
@@ -119,6 +119,7 @@ export default class RestaurantReview extends Component {
         </form>
       </div>
       </div>
+      
     )
   }
 }

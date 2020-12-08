@@ -5,6 +5,9 @@ import axios from 'axios';
 export default class Favorites extends Component {
   constructor(props) {
     super(props);
+    
+     
+    
 
     this.onChangeuserId = this.onChangeuserId.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
@@ -64,14 +67,18 @@ export default class Favorites extends Component {
 
   render() {
     return (
+      
+      
+      
       <div style={{ backgroundImage: `url(https://www.freepptbackgrounds.net/wp-content/uploads/2020/03/Breakfast-food-Backgrounds-750x460.jpg)`,
        backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
-       }}>
+       }}> 
 
       <div>
-        <h3><b>Add your Favorite Dish</b></h3>
+        <h1><b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Add your Favorite Dish</b></h1>
+        
 
 <img src="https://media.newstracklive.com/uploads/lifestyle-health/food-recipe/May/20/big_thumb/hyderabad_5ce2c5ebbbb17.PNG" alt="Biryani" width="180" height="160"></img>
 <h4><b>Biryani</b> dish Id  -  121210</h4>
@@ -116,9 +123,9 @@ export default class Favorites extends Component {
             <input type="submit" value="Add Favorite" className="btn btn-primary" />
           </div>
         </form>
-
+</div>
       </div>
-      </div>
+      
     )
   }
 }
