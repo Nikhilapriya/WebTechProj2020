@@ -22,7 +22,7 @@ export default class ExercisesList extends Component {
             
             <h1><b>Samosa</b></h1>
             <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/happytrioexplains-gmail.com/Tandoori_Paneer_Samosa.jpg" 
-            width="100%;"/ > 
+            width="100%;"/> 
             <h1><b>Gujarathi Special</b></h1>
             <img src="https://www.culturalindia.net/iliimages/Gujarati-Food-1.jpg" width="100%;"/> 
             

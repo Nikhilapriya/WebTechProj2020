@@ -80,19 +80,23 @@ export default class Favorites extends Component {
         <h1><b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Add your Favorite Dish</b></h1>
         
 
-<img src="https://media.newstracklive.com/uploads/lifestyle-health/food-recipe/May/20/big_thumb/hyderabad_5ce2c5ebbbb17.PNG" alt="Biryani" width="180" height="160"></img>
-<h4><b>Biryani</b> dish Id  -  121210</h4>
-<img src="https://sukhis.com/wp-content/uploads/2020/01/Dosa.jpg" alt="Biryani" width="180" height="160"></img>
-<h4><b>Masala Dosa</b> dish Id  -  121211</h4>
-<img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/happytrioexplains-gmail.com/Tandoori_Paneer_Samosa.jpg" alt="Biryani" width="180" height="160"></img>
-<h4><b>Samosa</b> dish Id  -  121212</h4>
-<img src="https://www.culturalindia.net/iliimages/Gujarati-Food-1.jpg" alt="Biryani" width="180" height="160"></img>
-<h4><b>Gujarathi Special</b> dish Id  -  121213</h4>
+<img src="https://media.newstracklive.com/uploads/lifestyle-health/food-recipe/May/20/big_thumb/hyderabad_5ce2c5ebbbb17.PNG"
+ alt="Biryani" width="220" height="200"></img>
+<h4>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Biryani</b> dish Id  -  121210</h4>
+<img src="https://sukhis.com/wp-content/uploads/2020/01/Dosa.jpg" alt="Masala Dosa" 
+width="220" height="200"></img>
+<h4>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Masala Dosa</b> dish Id  -  121211</h4>
+<img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/happytrioexplains-gmail.com/Tandoori_Paneer_Samosa.jpg" 
+alt="Samosa" width="220" height="190"></img>
+<h4>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Samosa</b> dish Id  -  121212</h4>
+<img src="https://www.culturalindia.net/iliimages/Gujarati-Food-1.jpg" alt="Gujarathi Special"
+ width="220" height="200"></img>
+<h4>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Gujarathi Special</b> dish Id  -  121213</h4><br/>
 
 
 <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
-            <label>DishId (id for the dish is mentioned above for your reference): </label>
+            <label><b>Dish Id</b> (id for the dish is mentioned above for your reference): </label>
             <select ref="userInput"
                 required
                 className="form-control"
@@ -109,7 +113,7 @@ export default class Favorites extends Component {
             </select>
           </div>
           <div className="form-group"> 
-            <label>Username: </label>
+            <label><b>Username</b>: </label>
             <input  type="text"
                 required
                 className="form-control"
