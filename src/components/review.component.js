@@ -21,7 +21,7 @@ export default class RestaurantReview extends Component {
   componentDidMount() {
     this.setState({ 
       dishes: ['121210','121211','121212','121213'],
-      dishId: 'test user'
+      dishId: '121210'
     });
   }
 
